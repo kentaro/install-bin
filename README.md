@@ -1,6 +1,6 @@
 # install-bin
 
-Install a script at some URL.
+Install a script at some URL into the first directory in `$PATH`.
 
 ## Usage
 
@@ -8,7 +8,7 @@ Install a script at some URL.
 $ ./install-bin https://raw.githubusercontent.com/kentaro/mruby-build/master/mruby-build
 ```
 
-You'll see the script under the directory which appears in `$PATH` environment variable.
+You'll see the script under the directory which appears at the first in `$PATH` environment variable.
 
 ## Author
 
