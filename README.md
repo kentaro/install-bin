@@ -16,4 +16,4 @@ Kentaro Kuribayashi
 
 ## License
 
-MTG
+MIT
