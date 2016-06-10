@@ -2,7 +2,7 @@
 
 set -e
 
-dir=`echo ${PATH} | cut -d ':' -f 1`
+dir=${PATH%%:*}
 bin="${dir}/${1##*/}"
 wget $1 -O $bin
 chmod +x $bin
